@@ -10,15 +10,37 @@ Fecha:
 
 # New Title Pruebas
 
-**Resaltando**
+**bold**
+
+**Ejemplo**
+
+Sintaxis:
+** 
+**
+**code**
 
 `Este es un code`
+
+Sintaxis:
+`    
+`
+
+**fenced codeblock**
 
 ```python
 p = "Hola Mundo"
 ```
 
+Sintaxis:
+``` 
+```
+
+**fenced math**
+
 $$
 (x+5)^2
 $$
 
+Sintaxis:
+$$ 
+$$

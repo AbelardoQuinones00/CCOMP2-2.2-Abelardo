@@ -24,7 +24,7 @@ Sintaxis:
 
 Sintaxis:
 `    
-`
+
 
 **fenced codeblock**
 
@@ -34,7 +34,7 @@ p = "Hola Mundo"
 
 Sintaxis:
 ``` 
-```
+
 
 **fenced math**
 

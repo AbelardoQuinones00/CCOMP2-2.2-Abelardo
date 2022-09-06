@@ -17,7 +17,7 @@ cin >> radio;
 
 cout << "\nDiámetro: " << radio*2 << endl;
 cout << "Circunferencia: " << 2*radio*3.14159 << endl;
-cout << "Área: " << 3.14159*(radio^2) << endl;
+cout << "Área: " << 3.14159*(radio*radio) << endl;
 
 return 0;
 }

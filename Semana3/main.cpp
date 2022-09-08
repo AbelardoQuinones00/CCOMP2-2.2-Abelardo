@@ -45,5 +45,8 @@ int main() {
     cin >> withdraw;
     account1.withdraw(withdraw);
 
+    cout << "\n\naccount1: " << account1.getName() << " balance is $"
+    << account1.getBalance();
+    
     return 0;
 }

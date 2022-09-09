@@ -5,7 +5,6 @@ using namespace std;
 
 int main() {
     char var;
-    int value;
 
     cout << "Escribe un caracter: ";
     cin >> var; 
@@ -13,4 +12,4 @@ int main() {
     
     return 0;
 
-}a
+}

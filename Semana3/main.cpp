@@ -9,7 +9,7 @@ int main() {
     Account account2{"John Blue", -7};
     
     // Display initial balance of each object
-    cout << "account1: " << account1.getName() << " balance is $" 
+    cout << "\naccount1: " << account1.getName() << " balance is $" 
         << account1.getBalance();
     cout << "\naccount2: " << account2.getName() << " balance is $" 
         << account2.getBalance();
@@ -41,12 +41,17 @@ int main() {
         << account2.getBalance() << endl;
 
     // Withdraws
-    cout << "\n\nEnter deposit withdraws for account1: ";
+    cout << "\n\nEnter withdraw for account1: ";
     cin >> withdraw;
     account1.withdraw(withdraw);
+    
+    cout << "\nEnter withdraw for account2: ";
+    cin >> withdraw;
+    account2.withdraw(withdraw);
 
     cout << "\n\naccount1: " << account1.getName() << " balance is $"
     << account1.getBalance();
-    
+    cout << "\naccount2: " << account2.getName() << " balance is $"
+        << account2.getBalance() << endl;
     return 0;
-}
+} 

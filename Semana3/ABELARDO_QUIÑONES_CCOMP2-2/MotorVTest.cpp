@@ -22,14 +22,6 @@ int main(){
     mV1.DisplayCarDetails();
     mV2.DisplayCarDetails();
 
-    // Date Class
-    cout << "\nDate Class";
-    Date D1{5,15,2200};
-    Date D2{15,30,2022};
-
-    D1.displayDate();
-    D2.displayDate();
-
     return 0;
 }
 

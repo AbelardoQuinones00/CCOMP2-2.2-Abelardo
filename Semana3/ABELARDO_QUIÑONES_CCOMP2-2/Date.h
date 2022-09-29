@@ -17,6 +17,8 @@ class Date {
         // Gets & Sets
 
         void SetMonth(int Month){
+            if (Month <= 12 && Month > 0)
+                month = Month;
             month = Month;
         }
         int getMonth(){

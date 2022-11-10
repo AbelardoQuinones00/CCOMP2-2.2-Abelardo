@@ -59,7 +59,7 @@ void DynamicIntArray::insert(int elem, int pos) {
             tmp[j] = data[i];
         }        
     }
-    // 3
+    // 3 
     size += 1;
     // 4
     delete [] data;
@@ -67,8 +67,19 @@ void DynamicIntArray::insert(int elem, int pos) {
     data = tmp;
 } 
 
-void DynamicIntArray::remove(int pos) {
-    
+void DynamicIntArray::remove(int pos) { // {1,2,3,10,4,6} pos = 2
+    int *tmp = new int[size - 1];       //  0 1 2 3 4 5
+    for(int i = 0, j = 0; i < size; i++, j++){
+        if(j == pos){ 
+            j--; // i = 2, j = 1
+        }
+        else 
+            tmp[j] = data[i];
+    } 
+    // i = 3, j = 2;
+    size -= 1;
+    delete [] data;
+    data = tmp;
 } 
 
 DynamicIntArray::~DynamicIntArray() {
